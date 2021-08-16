@@ -1,0 +1,8 @@
+.div {
+  border-radius: 6px;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 7px black;
+          box-shadow: 0 3px 7px black;
+  padding: 5px;
+}
+/*# sourceMappingURL=Card.module.css.map */

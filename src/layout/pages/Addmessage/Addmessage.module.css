@@ -1,0 +1,39 @@
+.addmessage {
+  margin: 100px auto auto 5px;
+}
+
+.form form {
+  background-color: blue;
+}
+
+.form textarea {
+  width: 95%;
+  padding: 5px;
+}
+
+.form input {
+  margin-top: 20px;
+}
+
+.header {
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: auto auto auto auto;
+}
+
+.btns {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 6px auto auto auto;
+}
+
+.btns input {
+  margin-left: 20px;
+}
+
+.btns input:hover {
+  background-color: blue;
+}
+/*# sourceMappingURL=Addmessage.module.css.map */

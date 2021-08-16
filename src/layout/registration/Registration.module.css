@@ -1,0 +1,95 @@
+.div {
+  margin: 100px auto auto auto;
+  font-size: 12px;
+}
+
+form {
+  background-color: brown;
+  margin-top: 40px;
+}
+
+.label {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto auto   auto;
+  font-size: 20px;
+}
+
+.label label {
+  position: relative;
+  bottom: 35px;
+  font-weight: bold;
+}
+
+.inputs {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  list-style-type: none;
+  margin: 0px auto auto auto;
+}
+
+.inputs input {
+  display: block;
+  border: 2px solid rgba(128, 128, 128, 0.384);
+  margin-bottom: 12px;
+  padding: 5px;
+}
+
+.btns {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 20px auto auto auto;
+}
+
+.btns input {
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+.btns input:invalid {
+  border-color: black;
+}
+
+.btns input:hover {
+  background-color: brown;
+}
+
+@media only screen and (min-width: 1300px) {
+  .div {
+    font-size: 23px;
+  }
+  input {
+    font-size: 23px;
+  }
+  .btns input {
+    font-size: 23px;
+  }
+  .label label {
+    bottom: 40px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .div {
+    margin-top: 300px;
+    font-size: 37px;
+  }
+  input {
+    font-size: 37px;
+  }
+  .btns input {
+    font-size: 37px;
+  }
+  .label label {
+    bottom: 70px;
+    font-size: 53px;
+  }
+  form {
+    margin-top: 80px;
+  }
+}
+/*# sourceMappingURL=Registration.module.css.map */

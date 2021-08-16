@@ -1,0 +1,143 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: brown;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 14px;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+
+nav {
+  margin: -12px auto auto -10px;
+}
+
+li {
+  list-style-type: none;
+  display: block;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.link:focus {
+  border: 4px red solid;
+}
+
+.link2 {
+  color: white;
+  margin-left: 17px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.link2:hover {
+  color: blue;
+}
+
+.link2:focus {
+  border: 4px red solid;
+}
+
+img {
+  width: 40px;
+  border-radius: 30px;
+}
+
+div {
+  margin: 5px 2px auto auto;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.imagechoose img {
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.imagechoose button {
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+@media only screen and (min-width: 375px) {
+  li {
+    display: inline;
+  }
+  nav {
+    margin: -2px auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .link, .link2 {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  nav {
+    margin-top: 4px;
+  }
+  .imagechoose img {
+    height: 70px;
+    width: 90px;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  h1 {
+    font-size: 27px;
+  }
+  .link, .link2 {
+    font-size: 22px;
+  }
+  nav {
+    margin-left: 450px;
+  }
+  img {
+    width: 60px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  h1 {
+    font-size: 50px;
+  }
+  .link, .link2 {
+    padding: 12px;
+    font-size: 40px;
+  }
+  nav {
+    margin-left: 770px;
+  }
+  img {
+    width: 130px;
+    border-radius: 50px;
+  }
+  p {
+    font-size: 42px;
+  }
+}
+/*# sourceMappingURL=Navigation.module.css.map */
